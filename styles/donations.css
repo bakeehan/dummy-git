@@ -33,9 +33,10 @@
   padding: 10px;
 }
 
-.subscription button:focus {
-  outline: none;
-  background-color: pink;
+.donate-section h4 {
+  background-color: #81968F;
+  padding: 10px;
+  border-radius: 20px;
 }
 
 .amount button:focus {
