@@ -11,13 +11,13 @@
 <body>
 
 	<header>
-		<div class="title"></div>
+		<div class="title"><h1>Welcome to Cool Animals Charity!</h1></div>
 		<nav></nav>
 	</header>
 
 	<div class="wrapper">
 		<div id="left">
-			<div class="text">
+			<div class="text-section">
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -32,10 +32,32 @@
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
 					non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</div>
-			<div class="donate">
-			</div>
 		</div>
 		<div id="right">
+			<div class="donate-section">
+				<div class="subscription">
+					<h4>Donation Type</h4>
+					<form action="/action_page.php">
+					  <select name="types" size="2">
+					    <option value="single">One-time Donation</option>
+					    <option value="monthly">Monthly Subscription</option>
+					  </select>
+					</form>
+				</div>
+
+				<div class="amount">
+					<h4>Amount</h4>
+					<button>$10</button>
+					<button>$25</button>
+					<button>$50</button>
+					<button>$100</button>
+					<input type="number" name="other-amount" placeholder="Other" required>
+				</div>
+
+				<div class="submit-btn">
+					<input type="submit" value="Continue">
+				</div>
+			</div>
 		</div>
 	</div>
 

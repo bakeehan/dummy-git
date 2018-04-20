@@ -13,3 +13,25 @@
   grid-column-start: 2;
   grid-column-end: 3;
 }
+
+.text-section {
+  padding: 10px;
+}
+
+.donate-section {
+  padding: 10px;
+}
+
+.subscription button:focus {
+  outline: none;
+  background-color: pink;
+}
+
+.amount button:focus {
+  outline: none;
+  background-color: lightgreen;
+}
+
+.submit-btn {
+  margin-top: 50px;
+}
