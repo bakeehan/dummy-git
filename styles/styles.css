@@ -2,6 +2,7 @@
 	width: 90%;
 	background-color:#eee;
 	margin:10px auto 50px;
+	padding-top:130px;
 }
 
 body {
@@ -18,6 +19,13 @@ a {
 	font-family: 'Cherry Swash', cursive;
 	padding:10px;
 	height:50px;
+}
+
+header {
+	position: fixed;
+	top:0;
+	width:100%;
+	/*margin-bottom:130px;*/
 }
 
 h1 {
