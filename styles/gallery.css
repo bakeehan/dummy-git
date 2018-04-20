@@ -9,7 +9,7 @@
 }
 
 }
-.a {
+.a, {
 	position: relative;
 }
 
@@ -19,4 +19,125 @@
     bottom: 30px;
     left: 10px;
     color: white;
+}
+
+.a {
+    padding: 0px;
+    transition: transform .2s;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-out;
+   
+}
+
+.a:hover {
+    -ms-transform: scale(1.050); /* IE 9 */
+    -webkit-transform: scale(1.050); /* Safari 3-8 */
+    transform: scale(1.050); 
+
+}
+
+
+.b {
+    padding: 0px;
+    transition: transform .2s;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-out;
+   
+}
+
+.b:hover {
+    -ms-transform: scale(1.050); /* IE 9 */
+    -webkit-transform: scale(1.050); /* Safari 3-8 */
+    transform: scale(1.050); 
+
+}
+
+.c {
+    padding: 0px;
+    transition: transform .2s;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-out;
+   
+}
+
+.c:hover {
+    -ms-transform: scale(1.050); /* IE 9 */
+    -webkit-transform: scale(1.050); /* Safari 3-8 */
+    transform: scale(1.050); 
+
+}
+
+.d {
+    padding: 0px;
+    transition: transform .2s;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-out;
+   
+}
+
+.d:hover {
+    -ms-transform: scale(1.050); /* IE 9 */
+    -webkit-transform: scale(1.050); /* Safari 3-8 */
+    transform: scale(1.050); 
+
+}
+
+.e {
+    padding: 0px;
+    transition: transform .2s;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-out;
+   
+}
+
+.e:hover {
+    -ms-transform: scale(1.050); /* IE 9 */
+    -webkit-transform: scale(1.050); /* Safari 3-8 */
+    transform: scale(1.050); 
+
+}
+
+.f {
+    padding: 0px;
+    transition: transform .2s;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-out;
+   
+}
+
+.f:hover {
+    -ms-transform: scale(1.050); /* IE 9 */
+    -webkit-transform: scale(1.050); /* Safari 3-8 */
+    transform: scale(1.050); 
+
+}
+
+.g {
+    padding: 0px;
+    transition: transform .2s;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-out;
+   
+}
+
+.g:hover {
+    -ms-transform: scale(1.050); /* IE 9 */
+    -webkit-transform: scale(1.050); /* Safari 3-8 */
+    transform: scale(1.050); 
+
+}
+
+.h {
+    padding: 0px;
+    transition: transform .2s;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-out;
+   
+}
+
+.h:hover {
+    -ms-transform: scale(1.050); /* IE 9 */
+    -webkit-transform: scale(1.050); /* Safari 3-8 */
+    transform: scale(1.050); 
+
 }
