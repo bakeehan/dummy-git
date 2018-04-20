@@ -37,3 +37,12 @@ img:hover {
 
 }
 
+
+
+@media all and (max-width: 600px) {
+
+	.wrapper {
+		display: block;
+		width: 100%;
+	}
+}
