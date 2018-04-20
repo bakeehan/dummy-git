@@ -20,8 +20,9 @@
 }
 
 .image-section {
-  width: 400px;
+  width: 500px;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .slides {
