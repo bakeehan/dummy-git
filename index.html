@@ -11,7 +11,11 @@
 
 	<header>
 		<div class="title"><h1>Welcome to Cool Animals Charity!</h1></div>
-		<nav></nav>
+		<nav id="navbar">
+			<a href="index.html">home</a>
+			<a href="donations.html">get involved</a>
+			<a href="gallery.html">success stories</a>
+		</nav>
 	</header>
 
 	<div class="wrapper"></div>
@@ -19,4 +23,22 @@
 	<footer></footer>
 
 </body>
+
+<script src="styles/stickynav.js"></script>
+
+<!-- <script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("navbar");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script> -->
+
 </html>
