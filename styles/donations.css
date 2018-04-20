@@ -87,3 +87,9 @@
 .extra-links li a:hover {
   border-bottom: 2px dotted;
 }
+
+@media all and (max-width: 1024px) {
+  .wrapper {
+    display: block;
+  }
+}
