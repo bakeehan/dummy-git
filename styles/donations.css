@@ -20,12 +20,13 @@
 }
 
 .image-section {
-  width: 400px;
+  width: 500px;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .slides {
-  height: 300px;
+  height: 350px;
   min-width: 100%;
 }
 
@@ -33,9 +34,14 @@
   padding: 10px;
 }
 
-.subscription button:focus {
-  outline: none;
-  background-color: pink;
+.donate-section h4 {
+  background-color: #81968F;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.subscription, .amount {
+  padding-left: 30px;
 }
 
 .amount button:focus {
@@ -45,4 +51,6 @@
 
 .submit-btn {
   margin-top: 50px;
+  float: right;
+
 }
