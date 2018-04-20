@@ -1,6 +1,4 @@
 // just copied off w3schools, but.... oh well
-
-
 window.onscroll = function() {myFunction()};
 
 var header = document.getElementById("navbar");
