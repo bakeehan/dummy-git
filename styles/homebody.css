@@ -1,0 +1,39 @@
+.wrapper {
+	display: grid;
+	margin: 0 auto;
+	/*border: 2px solid red;*/
+	grid-auto-rows: 400px;
+	grid-auto-columns: 400px;
+	grid-gap: 25px;
+	grid-template-columns: 1fr 1fr;
+}
+
+.left-text {
+	padding: 5px;
+}
+
+.right-text {
+	padding: 10px;
+}
+
+
+img {
+	float: left;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+img {
+    transition: transform .2s;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-out;
+   
+}
+
+img:hover {
+    -ms-transform: scale(1.050); /* IE 9 */
+    -webkit-transform: scale(1.050); /* Safari 3-8 */
+    transform: scale(1.050); 
+
+}
+
