@@ -1,7 +1,8 @@
 .wrapper {
 	width: 90%;
 	background-color:#eee;
-	margin:0 auto;
+	margin:10px auto 50px;
+	padding-top:130px;
 }
 
 body {
@@ -18,6 +19,13 @@ a {
 	font-family: 'Cherry Swash', cursive;
 	padding:10px;
 	height:50px;
+}
+
+header {
+	position: fixed;
+	top:0;
+	width:100%;
+	/*margin-bottom:130px;*/
 }
 
 h1 {
@@ -53,4 +61,73 @@ nav a:hover {
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+footer {
+	background-color: #96BDC6;
+	height:30px;
+	color:#F8DDA4;
+	text-align:center;
+	position: fixed;
+	bottom:0;
+	width: 100%;
+	padding:5px 0;
+	font-size: .8em;
+}
+
+footer h5 {
+	margin:0;
+	font-family: 'Cherry Swash', cursive;
+	display: inline-block;
+	font-size: 1.3em;
+	font-style: oblique;
+	margin-top:5px;
+}
+
+
+@media all and (max-width: 768px) {
+
+	.title {
+		height: 35px;
+	}
+
+	h1 {
+		font-size: 2em;
+	}
+
+	nav {
+		padding:10px;
+	}
+
+	nav a {
+		width: auto;
+		padding: 0;
+		border: none;
+	}
+
+	nav a:hover {
+		border: none;
+	}
+
+	footer {position: relative;}
+
+}
+
+
+@media all and (max-width: 480px) {
+
+	.title {
+		height: auto;
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 1.7em;
+	}
+
+	nav a {
+		width:auto;
+		margin: 0 5px;
+	}
+
 }
