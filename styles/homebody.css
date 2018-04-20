@@ -1,0 +1,25 @@
+.wrapper {
+	display: grid;
+	margin: 0 auto;
+	/*border: 2px solid red;*/
+	grid-auto-rows: 400px;
+	grid-auto-columns: 400px;
+	grid-gap: 25px;
+	grid-template-columns: 1fr 1fr;
+}
+
+.left-text {
+	padding: 10px;
+	
+}
+
+.right-text {
+	padding: 10px;
+}
+
+
+img {
+	float: left;
+	padding: 5px;
+	border-radius: 5px;
+}
