@@ -27,6 +27,8 @@
 .slides {
   height: 300px;
   min-width: 100%;
+  /*visibility: hidden;*/
+  display:none;
 }
 
 .donate-section {
