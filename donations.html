@@ -6,24 +6,82 @@
 	<link rel="stylesheet" type="text/css" href="styles/styles.css">
 	<link rel="stylesheet" type="text/css" href="styles/donations.css">
 	<link href="https://fonts.googleapis.com/css?family=Cherry+Swash|Roboto" rel="stylesheet">
+	<link rel="icon" href="images/paws-icon.png">
 </head>
 <body>
 
 	<header>
 		<div class="title"></div>
-		<nav id="navbar">
-			<a href="index.html">home</a>
-			<a href="donations.html">get involved</a>
-			<a href="gallery.html">success stories</a>
-		</nav>
+			<nav id="navbar">
+				<a href="index.html">home</a>
+				<a href="donations.html">get involved</a>
+				<a href="gallery.html">success stories</a>
+			</nav>
+		<div class="title"><h1>Welcome to Cool Animals Charity!</h1></div>
+
 	</header>
 
-	<div class="wrapper"></div>
+	<div class="wrapper">
+		<div id="left">
+			<div class="text-section">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+					non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+					non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<div class="image-section">
+				<img class="slides" src="images/dog1.jpg">
+				<img class="slides" src="images/cat1.jpg">
+				<img class="slides" src="images/dog2.jpg">
+				<img class="slides" src="images/cat2.jpg">
+			</div>
+		</div>
+
+		<div id="right">
+			<div class="donate-section">
+				<div class="subscription">
+					<h4>Donation Type</h4>
+					<form action="/action_page.php">
+					  <select name="types" size="2">
+					    <option value="single">One-time Donation</option>
+					    <option value="monthly">Monthly Subscription</option>
+					  </select>
+					</form>
+				</div>
+
+				<div class="amount">
+					<h4>Amount</h4>
+					<button>$10</button>
+					<button>$25</button>
+					<button>$50</button>
+					<button>$100</button>
+					<input type="number" name="other-amount" placeholder="Other" required>
+				</div>
+
+				<div class="submit-btn">
+					<input type="submit" value="Continue">
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<footer></footer>
-
+	<script src="scripts/donations.js"></script>
 </body>
+<<<<<<< HEAD
 
 <script src="styles/stickynav.js"></script>
 
 </html>
+=======
+</html>
+>>>>>>> donations

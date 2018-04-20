@@ -1,0 +1,48 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+#left {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+#right {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.text-section {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.image-section {
+  width: 400px;
+  overflow: hidden;
+}
+
+.slides {
+  height: 300px;
+  min-width: 100%;
+}
+
+.donate-section {
+  padding: 10px;
+}
+
+.subscription button:focus {
+  outline: none;
+  background-color: pink;
+}
+
+.amount button:focus {
+  outline: none;
+  background-color: lightgreen;
+}
+
+.submit-btn {
+  margin-top: 50px;
+}
