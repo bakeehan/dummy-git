@@ -93,7 +93,11 @@
     display: block;
   }
 }
-
+@media all and (max-width: 768px) {
+  .wrapper {
+    padding-top:60px;
+  }
+}
 @media all and (max-width: 480px) {
 
 }
