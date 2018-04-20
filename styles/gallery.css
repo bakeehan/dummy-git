@@ -4,7 +4,7 @@
 	/*border: 2px solid red;*/
 	grid-auto-rows: 200px;
 	grid-auto-columns: 200px;
-	grid-gap: 5px;
+	grid-gap: 10px;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 

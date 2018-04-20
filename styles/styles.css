@@ -87,6 +87,8 @@ footer h5 {
 
 @media all and (max-width: 768px) {
 
+	.wrapper {width:100%;}
+
 	.title {
 		height: 35px;
 	}
