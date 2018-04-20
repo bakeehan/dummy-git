@@ -75,3 +75,51 @@ footer h5 {
 	font-style: oblique;
 	margin-top:5px;
 }
+
+
+@media all and (max-width: 768px) {
+
+	.title {
+		height: 35px;
+	}
+
+	h1 {
+		font-size: 2em;
+	}
+
+	nav {
+		padding:10px;
+	}
+
+	nav a {
+		width: auto;
+		padding: 0;
+		border: none;
+	}
+
+	nav a:hover {
+		border: none;
+	}
+
+	footer {position: relative;}
+
+}
+
+
+@media all and (max-width: 480px) {
+
+	.title {
+		height: auto;
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 1.7em;
+	}
+
+	nav a {
+		width:auto;
+		margin: 0 5px;
+	}
+
+}
