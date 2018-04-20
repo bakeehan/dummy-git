@@ -7,11 +7,13 @@
 #left {
   grid-column-start: 1;
   grid-column-end: 2;
+  padding: 10px;
 }
 
 #right {
   grid-column-start: 2;
   grid-column-end: 3;
+  padding: 10px;
 }
 
 .text-section {
@@ -20,23 +22,25 @@
 }
 
 .image-section {
-  width: 500px;
+  padding: 10px;
+  width: 80%;
   overflow: hidden;
   margin: 0 auto;
 }
 
 .slides {
   height: 350px;
-  min-width: 100%;
+  max-width: 100%;
 }
 
 .donate-section {
   padding: 10px;
 }
 
-.donate-section h4 {
+.donate-section h4, .text-section h4 {
   background-color: #81968F;
-  padding: 10px;
+  color: #E9D6EC;
+  padding: 10px 10px 10px 20px;
   border-radius: 20px;
 }
 
@@ -50,7 +54,32 @@
 }
 
 .submit-btn {
-  margin-top: 50px;
-  float: right;
+  width: 100%;
+  display: block;
+  margin-top: 40px;
+  margin-left: 30px;
+}
 
+.extra-links {
+  list-style-type: none;
+  display: block;
+  overflow: hidden;
+  width: 80%;
+  margin: 50px auto 0 auto;
+}
+
+.extra-links li {
+  float: left;
+  margin-left: 30px;
+}
+
+.extra-links li a {
+  display: block;
+  padding: 10px;
+  margin:0 20px;
+  text-decoration: none;
+}
+
+.extra-links li a:hover {
+  border-bottom: 2px dotted;
 }
