@@ -1,12 +1,22 @@
 .wrapper {
 	display: grid;
 	margin: 0 auto;
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 	grid-auto-rows: 200px;
 	grid-auto-columns: 200px;
 	grid-gap: 5px;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+}
 .a {
-	border: 1px solid blue;
+	position: relative;
+}
+
+.bottom-left {
+	border: color 1px solid grey;
+    position: relative;
+    bottom: 30px;
+    left: 10px;
+    color: white;
 }
